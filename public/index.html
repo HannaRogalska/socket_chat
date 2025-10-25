@@ -8,10 +8,12 @@
   </head>
   <body>
     <ul id="messages" class="messages">
-      <li>message</li>
     </ul>
     <form id="form" action="" class="form">
-      <input id="input" autocomplete="off" class="input" /><button>Send</button>
+      <input id="name" autocomplete="off" class="input" placeholder="name" />
+      <input id="input" autocomplete="off" class="input" placeholder="text"/><button>Send</button>
     </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./chat.js"></script>
   </body>
 </html>
